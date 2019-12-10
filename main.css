@@ -22,7 +22,6 @@ header{
 	text-shadow: 3px 2px 1px rgba(189,186,186,1.00);
 }
 nav{
-	background-image: url("logoproj.png");
 	margin:15px;
 	float:left;
 	width:400px;
@@ -42,6 +41,7 @@ section{
 	background-color:#EBD7F9;
 	float:left;
 	padding-top:10px;
+	font-family: 'Lilita One', cursive;
 }
 
 article{
@@ -51,14 +51,17 @@ article{
 	background-color:#EBD7F9;
 	float:left;
 	padding-top:10px;
+	font-family: 'Lilita One', cursive;
 	
 }
 footer{
+	text-align: center;
 	background-color:#F9C0F5;
 	width:980px;
 	clear:both;
-	height:1200px;
+	height:1900px;
 	margin-left:15px;
+	font-family: 'Lilita One', cursive;
 
 	
 	
