@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-color:#FFFBE6;
+	
+}
+#container{
+	width:1020px;
+	margin:0 auto;
+	align-content: center;
+	}
+header{
+	background-image: url("background.jpg");
+	width:0 auto;
+	height:150px;
+	border-radius:36px;
+	color:white;
+	font-family: 'Dancing Script', cursive;
+	font-size:35px;
+	padding-left:300px;
+	text-shadow: 3px 2px 1px rgba(189,186,186,1.00);
+}
+nav{
+	background-image: url("logoproj.png");
+	margin:15px;
+	float:left;
+	width:400px;
+	height:310px;
+	margin-right:20px;
+	padding-top:15px;
+	padding-bottom:15px;
+	padding-right:10px;
+	padding-left:10px;
+	background-color:#FFDDFC;
+	
+}
+section{
+	height:160px;
+	margin-top:15px;
+	width:540px;
+	background-color:#EBD7F9;
+	float:left;
+	padding-top:10px;
+}
+
+article{
+	height:140px;
+	margin-top:15px;
+	width:540px;
+	background-color:#EBD7F9;
+	float:left;
+	padding-top:10px;
+	
+}
+footer{
+	background-color:#F9C0F5;
+	width:980px;
+	clear:both;
+	height:1200px;
+	margin-left:15px;
+
+	
+	
+	
+	
+}
