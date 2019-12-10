@@ -89,8 +89,44 @@ Instragram: Doki.Draws (DM)<br>
 Email: CelestialDoki@gmail.com<br>
 	**NEW!** Discord: https://discord.gg/cGeaW9k<br><br></a>
 	<a name="examples">
-	E X A M P L E S<br>
+	E X A M P L E S<br><br>
 	</a>
+			  <style>
+  p {
+    margin: 0;
+    color: blue;
+  }
+  div,p {
+    margin-left: 10px;
+  }
+  span {
+    color: red;
+  }
+  </style>
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+</head>
+<body>
+ <br>
+<p>Type 'read' to validate.</p>
+<form action="javascript:alert( 'success!' );">
+  <div>
+    <input type="text">
+    <input type="submit">
+  </div>
+</form>
+<span></span>
+ 
+<script>
+$( "form" ).submit(function( event ) {
+  if ( $( "input" ).first().val() === "read" ) {
+    $( "span" ).text( "Validated..." ).show();
+    return;
+  }
+ 
+  $( "span" ).text( "Not valid!" ).show().fadeOut( 1000 );
+  event.preventDefault();
+});
+</script>
 	
 			
 			
